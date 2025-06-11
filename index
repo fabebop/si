@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Título de la Noticia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Barlow', sans-serif;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 1.4rem;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      margin: 20px 0 5px;
+    }
+
+    .caption {
+      font-size: 0.9rem;
+      color: #999;
+      margin-bottom: 30px;
+    }
+
+    .content p {
+      font-size: 1.15rem;
+      margin-bottom: 20px;
+    }
+
+    .content a {
+      color: #1da1f2;
+      text-decoration: none;
+    }
+
+    .quote {
+      border-left: 3px solid #fff;
+      padding-left: 15px;
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin: 30px 0;
+      color: #ccc;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #ff2a2a;
+      text-decoration: underline;
+    }
+
+    blockquote.twitter-tweet {
+      margin: 30px auto;
+    }
+
+    .tiktok-embed {
+      margin: 30px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Título de la noticia</h1>
+    <div class="subtitle">Bajada de la noticia explicando en una frase o dos de qué trata el artículo.</div>
+
+    <img src="https://via.placeholder.com/800x400" alt="Imagen principal" />
+    <div class="caption">Créditos de la imagen principal</div>
+
+    <div class="content">
+      <p>Este es el <span class="highlight">texto principal</span> de la noticia. Aquí puedes incluir hipervínculos como <a href="https://ejemplo.com" target="_blank">este enlace</a>, texto en <strong>negrita</strong>, o <span class="highlight">subrayado en rojo</span>.</p>
+
+      <img src="https://via.placeholder.com/700x300" alt="Imagen dentro del cuerpo" />
+      <div class="caption">Créditos o sumilla de la imagen dentro del cuerpo del texto</div>
+
+      <p>Más párrafos explicando los detalles del artículo. Puedes escribir todo el desarrollo aquí.</p>
+
+      <div class="quote">“Fragmento importante de una entrevista o una cita destacada, que se quiere resaltar como declaración.”</div>
+
+      <p>Otra parte del texto, donde se desarrolla la noticia con contexto o análisis.</p>
+
+      <!-- TikTok Embed -->
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@usuario/video/1234567890" data-video-id="1234567890" style="max-width: 605px;min-width: 325px;" >
+        <section>Contenido de TikTok</section>
+      </blockquote>
+      <script async src="https://www.tiktok.com/embed.js"></script>
+
+      <!-- Tweet Embed -->
+      <blockquote class="twitter-tweet">
+        <p lang="es" dir="ltr">Este es un tweet de ejemplo relacionado con la noticia.</p>
+        &mdash; Nombre (@usuario) <a href="https://twitter.com/usuario/status/1234567890123456789">Fecha</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</body>
+</html>
